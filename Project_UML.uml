@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Project Java/Project_252_A/src</OriginalElement>
+  <nodes>
+    <node x="630.5" y="483.0">Model.Tile.ShpinxTile</node>
+    <node x="552.0" y="563.0">Controller.Controller</node>
+    <node x="216.0" y="103.0">Model.Tile.LandSlideTile</node>
+    <node x="548.5" y="343.0">Model.Tile.MosaicTile</node>
+    <node x="60.0" y="-17.0">Model.Tile.Tile</node>
+    <node x="28.0" y="163.0">Model.Tile.FindingTile</node>
+    <node x="389.0" y="563.0">Model.Board</node>
+    <node x="141.5" y="283.0">Model.Tile.SkeletonTile</node>
+    <node x="350.5" y="343.0">Model.Tile.StatueTile</node>
+    <node x="422.0" y="483.0">Model.Tile.CaryatidTile</node>
+    <node x="74.0" y="703.0">Model.Character.Assistant</node>
+    <node x="255.0" y="703.0">Model.Character.Archaeologist</node>
+    <node x="-80.0" y="343.0">Model.Tile.AmphoraTile</node>
+    <node x="472.5" y="703.0">Model.Character.Professor</node>
+    <node x="667.0" y="703.0">Model.Character.Digger</node>
+    <node x="228.0" y="563.0">Model.Player</node>
+    <node x="-92.0" y="703.0">Model.Character.Coder</node>
+    <node x="-89.0" y="563.0">Model.Character.Character</node>
+    <node x="98.5" y="563.0">Model.Bag</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Tile.LandSlideTile" target="Model.Tile.Tile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="307.0" y="80.0" />
+      <point x="107.0" y="80.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Character.Digger" target="Model.Character.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="727.0" y="680.0" />
+      <point x="-13.0" y="680.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Tile.MosaicTile" target="Model.Tile.FindingTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="627.0" y="260.0" />
+      <point x="7.0" y="260.0" />
+      <point x="7.0" y="140.0" />
+      <point x="107.0" y="140.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+    <edge source="Model.Tile.StatueTile" target="Model.Tile.FindingTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="427.0" y="260.0" />
+      <point x="7.0" y="260.0" />
+      <point x="7.0" y="140.0" />
+      <point x="107.0" y="140.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+    <edge source="Model.Tile.CaryatidTile" target="Model.Tile.StatueTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="507.0" y="460.0" />
+      <point x="527.0" y="460.0" />
+      <point x="527.0" y="320.0" />
+      <point x="427.0" y="320.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+    <edge source="Model.Character.Coder" target="Model.Character.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="-33.0" y="680.0" />
+      <point x="-13.0" y="680.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Tile.AmphoraTile" target="Model.Tile.FindingTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="7.0" y="140.0" />
+      <point x="107.0" y="140.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+    <edge source="Model.Character.Archaeologist" target="Model.Character.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="347.0" y="680.0" />
+      <point x="-13.0" y="680.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Tile.SkeletonTile" target="Model.Tile.FindingTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="227.0" y="260.0" />
+      <point x="7.0" y="260.0" />
+      <point x="7.0" y="140.0" />
+      <point x="107.0" y="140.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+    <edge source="Model.Tile.FindingTile" target="Model.Tile.Tile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Character.Assistant" target="Model.Character.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="147.0" y="680.0" />
+      <point x="-13.0" y="680.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Character.Professor" target="Model.Character.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="547.0" y="680.0" />
+      <point x="-13.0" y="680.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Model.Tile.ShpinxTile" target="Model.Tile.StatueTile" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="707.0" y="460.0" />
+      <point x="527.0" y="460.0" />
+      <point x="527.0" y="320.0" />
+      <point x="427.0" y="320.0" />
+      <point x="0.0" y="-17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7359173126614987" showDependencies="false" x="565.1875000000002" y="495.6875" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
